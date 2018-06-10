@@ -59,10 +59,10 @@ const (
 
 	// The following entries don't have to be compatible across Go-FUSE versions.
 	_OP_NOTIFY_ENTRY  = int32(100)
-	_OP_NOTIFY_INODE  = int32(101)
+	_OP_NOTIFY_INODE  = int32(2016)
 	_OP_NOTIFY_DELETE = int32(102) // protocol version 18
 
-	_OPCODE_COUNT = int32(103)
+	_OPCODE_COUNT = int32(2017)
 )
 
 ////////////////////////////////////////////////////////////////
